@@ -1,0 +1,26 @@
+{
+    "version": "1.0",
+    "name": "HemoMap",
+    "description": "Géolocalisation des Centres de Traitement de l'Hémophilie",
+    "type": "web",
+    "fullscreen": "true",
+    "orientation": ["portrait"],
+    "launch_path": "/index.html",
+    "icons":
+        {
+            "60": "/img/icons/hemomap-60.png",
+            "128": "/img/icons/hemomap-128.png"
+        },
+    "developer":
+        {
+            "name": "Tristan Colombo",
+            "url": "http://github.com/tcolombo/hemomap"
+        },
+    "permissions":
+        {
+            "geolocation": 
+                {
+                    "description": "Détection de la position pour calcul du centre le plus proche"
+                }
+        }
+}
